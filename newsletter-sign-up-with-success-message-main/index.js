@@ -3,6 +3,7 @@ function myFunction(){
     var userEmail = document.getElementById('email').value;
     if ( userEmail.length === 0 ) {
         document.getElementById("sub-btn").disabled = true;
+        alert("Refresh and enter your email");
     } else if (userEmail.length > 0) {
         document.getElementById("sub-btn").disabled = false;
     }
